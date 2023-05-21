@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+     int i,j,arr1[100],arr2[100],narr[100],n,sum1=0,sum2=0;
+     cin>>n;
+     for(i=0;i<=n-1;i++){
+        cin>>arr1[i];
+        sum1=sum1+arr1[i];
+     }
+     for(j=0;j<=n-1;j++){
+        cin>>arr2[j];
+        sum2=sum2+arr2[j];
+     }
+     narr[100]=sum1+sum2;
+cout<<narr[100];
+}
